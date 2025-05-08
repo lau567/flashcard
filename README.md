@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flashcards com Imagens</title>
+  <title>Flashcards Divertidos</title>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <style>
     body {
@@ -19,8 +19,8 @@
 
     .flashcard {
       background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-      width: 240px;
-      height: 200px;
+      width: 220px;
+      height: 140px;
       margin: 15px;
       border-radius: 15px;
       perspective: 1000px;
@@ -52,10 +52,9 @@
       backface-visibility: hidden;
       border-radius: 15px;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 10px;
+      padding: 15px;
       font-size: 16px;
       color: #fff;
       text-align: center;
@@ -69,118 +68,81 @@
       background: #92fe9d;
       transform: rotateY(180deg);
     }
-
-    .flashcard img {
-      width: 80px;
-      height: 80px;
-      border-radius: 10px;
-      object-fit: cover;
-      margin-bottom: 10px;
-      border: 2px solid white;
-    }
   </style>
 </head>
 <body>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Pedro_Álvares_Cabral.jpg" alt="Cabral">
-        Quem descobriu o Brasil?
-      </div>
+      <div class="front">Quem descobriu o Brasil?</div>
       <div class="back">Pedro Álvares Cabral</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_by_Cassini-Huygens.jpg" alt="Júpiter">
-        Qual é o maior planeta do sistema solar?
-      </div>
+      <div class="front">Qual é o maior planeta do sistema solar?</div>
       <div class="back">Júpiter</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Proclamacao_republica.jpg" alt="Proclamação">
-        Quando foi a Proclamação da República?
-      </div>
+      <div class="front">Quando foi a Proclamação da República?</div>
       <div class="back">15 de novembro de 1889</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Chlorophyll_molecule_ball.png" alt="Clorofila">
-        Função da clorofila nas plantas?
-      </div>
+      <div class="front">Função da clorofila nas plantas?</div>
       <div class="back">Captar luz para fotossíntese</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Tiradentes_por_Oscar_Pereira_da_Silva.jpg" alt="Tiradentes">
-        Quem foi Tiradentes?
-      </div>
+      <div class="front">Quem foi Tiradentes?</div>
       <div class="back">Líder da Inconfidência Mineira</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/DNA_Overview2.png" alt="DNA">
-        O que é DNA?
-      </div>
+      <div class="front">O que é DNA?</div>
       <div class="back">Molécula que carrega material genético</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Prise_de_la_Bastille.jpg" alt="Revolução Francesa">
-        O que foi a Revolução Francesa?
-      </div>
+      <div class="front">O que foi a Revolução Francesa?</div>
       <div class="back">Queda da monarquia na França (1789)</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Human_lungs.png" alt="Pulmões">
-        Órgão da respiração?
-      </div>
+      <div class="front">Órgão da respiração?</div>
       <div class="back">Pulmões</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Princess_Isabel_of_Brazil_c.1887.jpg" alt="Lei Áurea">
-        Quando foi assinada a Lei Áurea?
-      </div>
+      <div class="front">Quando foi assinada a Lei Áurea?</div>
       <div class="back">13 de maio de 1888</div>
     </div>
   </div>
 
   <div class="flashcard" onclick="this.classList.toggle('flipped')">
     <div class="inner-card">
-      <div class="front">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Unicellular_organism_diagram.svg" alt="Unicelulares">
-        O que são seres unicelulares?
-      </div>
+      <div class="front">O que são seres unicelulares?</div>
       <div class="back">Organismos de uma única célula</div>
     </div>
   </div>
 
 </body>
 </html>
+
+
